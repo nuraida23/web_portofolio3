@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Nuraida</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Font Awesome CDN untuk penampil ikon otomatis -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="header">
+        <a href="#home" class="logo">Portofolio Nuraida</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">About</a>
+            <a href="#Services">Services</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+
+    <!-- Bagian Beranda (Home Section) -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="assets/IMG_20260421_131238.jpg" alt="Foto Profil Nuraida" />
+        </div>
+
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>Nuraida</h1>
+            <h3>Dan saya adalah seorang <span class="multiple-text">Pengembang Web & Desainer UI/UX</span></h3>
+            <p>
+                Saya seorang pengembang web yang berdedikasi dan bersemangat dalam menciptakan aplikasi web yang responsif, modern, serta ramah pengguna. Saya terus belajar dan berinovasi untuk memberikan solusi digital terbaik.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="#" class="btn">Unduh CV</a>
+        </div>
+    </section>
+
+    <!-- Bagian Tentang Saya (About Section) -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>me</span></h2>
+            <h3>Saya adalah <span>Pengembang Front-End</span></h3>
+            <p>
+                Saya berfokus pada pengembangan tampilan antarmuka web yang menarik, interaktif, dan intuitif. Memiliki ketertarikan tinggi pada dunia teknologi informasi dan selalu berusaha menciptakan karya yang bermanfaat.
+            </p>
+            <a href="#" class="btn">Baca Selengkapnya</a>
+        </div>
+
+        <div class="about-img">
+            <img src="assets/IMG_20260421_131238.jpg" alt="Foto Tentang Nuraida" />
+        </div>
+    </section>
+
+    <!-- Bagian Layanan (Services Section) -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Pengembangan Web</h3>
+                <p>
+                    Membangun website yang cepat, responsif, dan fungsional menggunakan teknologi web modern sesuai kebutuhan Anda.
+                </p>
+                <a href="#" class="btn">Baca Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Desain UI/UX</h3>
+                <p>
+                    Merancang antarmuka pengguna yang estetis, nyaman digunakan, dan memberikan pengalaman terbaik bagi pengunjung web.
+                </p>
+                <a href="#" class="btn">Baca Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Pengembangan Aplikasi</h3>
+                <p>
+                    Mengembangkan ide aplikasi menjadi produk digital yang dinamis dan siap mendukung berbagai kebutuhan pengguna.
+                </p>
+                <a href="#" class="btn">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Testimoni (Testimonial Section dengan Kotak Rapi) -->
+    <section class="testimonial" id="testimonial">
+        <h2 class="heading">Testimonial <span>Klien & Rekan</span></h2>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-box">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>
+                    "Nuraida adalah sosok yang sangat tekun, kreatif, dan selalu tepat waktu dalam menyelesaikan setiap proyek pengembangan web."
+                </p>
+                <h3>Rekan Kerja</h3>
+                <span>Tim Pengembang</span>
+            </div>
+
+            <div class="testimonial-box">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>
+                    "Sangat puas dengan hasil pembuatan websitenya. Tampilannya modern, rapi, dan sangat mudah digunakan!"
+                </p>
+                <h3>Klien / Mitra</h3>
+                <span>Pemilik Usaha</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Kontak (Contact Section) -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me </span></h2>
+        
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nama Lengkap" required />
+                <input type="email" name="Email" placeholder="Alamat Email" required />
+            </div>
+            <textarea name="message" cols="30" rows="5" placeholder="Pesan Anda" required></textarea>
+            <input type="submit" value="Kirim Pesan" class="btn" />
+        </form>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="copyright">&copy; Nuraida. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
